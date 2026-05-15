@@ -1,3 +1,5 @@
+// Main layout wrapping all public pages with Navbar and Footer
+
 import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
