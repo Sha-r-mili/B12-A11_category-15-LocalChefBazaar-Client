@@ -1,3 +1,5 @@
+// Footer with contact info social links and working hours
+
 import { Link } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from "react-icons/fa";
 import { FiMail, FiPhone, FiMapPin, FiClock } from "react-icons/fi";
