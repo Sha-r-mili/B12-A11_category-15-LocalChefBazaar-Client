@@ -1,3 +1,4 @@
+// Protects private routes - redirects unauthenticated users to login
 import { Navigate, useLocation } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import LoadingSpinner from "../components/LoadingSpinner";
