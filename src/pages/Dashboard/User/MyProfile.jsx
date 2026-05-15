@@ -1,3 +1,5 @@
+// User profile - shows info and role request buttons
+
 import { useEffect, useState } from "react";
 import { useAuth } from "../../../contexts/AuthContext";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
