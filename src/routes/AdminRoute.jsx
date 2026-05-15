@@ -1,3 +1,5 @@
+// Restricts access to admin-only pages
+
 import { Navigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import { useEffect, useState } from "react";
