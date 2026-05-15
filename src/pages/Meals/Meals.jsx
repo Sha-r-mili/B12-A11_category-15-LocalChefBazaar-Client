@@ -1,3 +1,5 @@
+// Meals page - displays all meals with sort and pagination
+
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
