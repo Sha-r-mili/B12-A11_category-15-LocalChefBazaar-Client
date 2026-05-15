@@ -1,3 +1,5 @@
+// Admin page - manage all users and fraud status
+
 import { useEffect, useState } from "react";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import Swal from "sweetalert2";
