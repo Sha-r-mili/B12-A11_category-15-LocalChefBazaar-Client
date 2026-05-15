@@ -1,3 +1,5 @@
+// Global authentication context with JWT token management
+
 import { createContext, useContext, useEffect, useState } from "react";
 import {
   createUserWithEmailAndPassword,
