@@ -1,3 +1,5 @@
+// Login page - email and password authentication with JWT
+
 import { useForm } from "react-hook-form";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
