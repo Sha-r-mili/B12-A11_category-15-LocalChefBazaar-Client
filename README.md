@@ -1,16 +1,22 @@
-# React + Vite
+# LocalChefBazaar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack MERN marketplace for local home-cooked meals.
 
-Currently, two official plugins are available:
+## Live URL
+[https://localchefbazaar.netlify.app](https://localchefbazaar.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Key Features
+- Role-based access control: User, Chef, Admin
+- Firebase Authentication with JWT tokens
+- Browse, order and review home-cooked meals
+- Stripe payment integration
+- Chef dashboard for meal and order management
+- Admin dashboard with platform statistics
+- Framer Motion animations
+- Fully responsive mobile design
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## NPM Packages Used
+- react-router-dom, firebase, axios
+- react-hook-form, sweetalert2, react-hot-toast
+- framer-motion, @stripe/react-stripe-js
+- recharts, react-helmet-async, react-icons
