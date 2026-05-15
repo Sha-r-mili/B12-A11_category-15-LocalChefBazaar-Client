@@ -1,3 +1,5 @@
+// Registration - creates Firebase user then saves to MongoDB
+
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../../contexts/AuthContext";
