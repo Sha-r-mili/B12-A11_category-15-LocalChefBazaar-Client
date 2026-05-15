@@ -1,3 +1,5 @@
+// Private meal details - shows full info, reviews, and favorite button
+
 import { useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import axios from "axios";
