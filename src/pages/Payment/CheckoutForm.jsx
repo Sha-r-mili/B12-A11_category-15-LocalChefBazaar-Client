@@ -1,3 +1,5 @@
+// Stripe checkout form - handles card payment and saves history
+
 import { useState } from "react";
 import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import useAxiosSecure from "../../hooks/useAxiosSecure";
