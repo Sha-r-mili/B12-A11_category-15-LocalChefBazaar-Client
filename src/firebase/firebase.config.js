@@ -1,3 +1,5 @@
+// Firebase configuration for LocalChefBazaar authentication
+
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
