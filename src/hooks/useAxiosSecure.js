@@ -1,3 +1,5 @@
+// Axios interceptor hook - attaches JWT token to every secure request
+
 import axios from "axios";
 import { useEffect } from "react";
 import { useAuth } from "../contexts/AuthContext";
