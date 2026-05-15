@@ -1,3 +1,5 @@
+// Dashboard layout with responsive collapsible sidebar
+
 import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import { useAuth } from "../contexts/AuthContext";
 import { useEffect, useState } from "react";
